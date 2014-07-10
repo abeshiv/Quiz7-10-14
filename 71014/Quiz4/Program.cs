@@ -1,51 +1,4 @@
-Van Abeshi, Quiz 7/10/14
-
-1) 
-	Should state expected return as a type (int) rather than void.
-
-2)
-	The function will not return anything, as concat requires
-string.concat(a, d) or a <type> followed by <concat>(parameters), and the parameters in this context need to be two different strings, not including the one first named in the equation.
-
-Correct => "b = string.Concat(a, d)"
-Current => "b = b.concat(a)
-
-3)
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Quiz3
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Random rand = new Random();
-            int number = rand.Next(100);
-            myFunc(number);
-
-
-        }
-        public static void myFunc(int number)
-        {
-            Console.WriteLine(number);
-            
-
-            if (number % 2 == 0)
-                Console.WriteLine("Even");
-            else
-                Console.WriteLine("Odd");
-                    Console.ReadLine();
-        }
-    }
-}
-
-4. All possible string combinations for 223 on a touch tone phone.
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,45 +10,13 @@ namespace Quiz4
     {
         static void Main(string[] args)
         {
+
             string[] two = { "a", "b", "c" };
-            string[] three = { "d", "e", "f" };
-
-            for (int i = 0; i < two.Length; i++)
-            {
-                for (int j = 0; j < two.Length; j++)
-                {
-                    for (int k = 0; k < three.Length; k++)
-                    {
-                        Console.WriteLine(two[i] + two[j] + three[k]); 
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-For any three digits:
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Quiz4
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            
-            string[] two = {"a", "b", "c"};
             string[] three = { "d", "e", "f" };
             string[] four = { "g", "h", "i" };
             string[] five = { "j", "k", "l" };
             string[] six = { "m", "n", "o" };
-            string[] seven ={"p", "q", "r", "s"};
+            string[] seven = { "p", "q", "r", "s" };
             string[] eight = { "t", "u", "v" };
             string[] nine = { "w", "x", "y", "z" };
             string[] first = two;
@@ -239,7 +160,7 @@ namespace Quiz4
 
             for (int i = 0; i < first.Length; i++)
             {
-                for (int j = 0; j< second.Length; j++)
+                for (int j = 0; j < second.Length; j++)
                 {
                     for (int k = 0; k < third.Length; k++)
                     {
