@@ -14,10 +14,11 @@ namespace Quiz2
             string b = "goodbye";
             string c = b;
 
-            b = b.Concat(a);
+            b = string.Concat(a);
 
             Console.WriteLine("a = " + a);
-            Console.WriteLine("b =");
+            Console.WriteLine("b = "+ b);
+            Console.WriteLine("c = " + c);
 
         }
     }

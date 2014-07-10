@@ -11,10 +11,12 @@ namespace _71014
         static int myfunc(int x, int y)
         {
             Console.WriteLine(x * y);
+            Console.ReadLine();
             return (x * y);
         }
         static void Main(string[] args)
         {
+            int result =myfunc(2, 3);
         }
     }
 }

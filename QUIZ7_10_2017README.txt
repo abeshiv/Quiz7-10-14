@@ -1,5 +1,9 @@
 Van Abeshi, Quiz 7/10/14
 
+/*
+These files contain corrections to all the faulty programs given on the quiz on 7/10/2014, the corrections are as follows:
+
+
 1) 
 	Should state expected return as a type (int) rather than void.
 
@@ -251,3 +255,4 @@ namespace Quiz4
         }
     }
 }
+*/
